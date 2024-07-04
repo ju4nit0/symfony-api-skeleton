@@ -1,0 +1,4 @@
+controllers:
+    resource: "../src/*Context/*Module/Infrastructure/Entrypoint/Http/Api/V1/**/*Controller.php"
+    type: attribute
+    prefix: /api/v1
