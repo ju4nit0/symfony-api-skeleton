@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dcc301f-14d5-46de-a2ef-22a63445c7d0" name="Changes" comment="" />
+    <list default="true" id="8dcc301f-14d5-46de-a2ef-22a63445c7d0" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/MainContext/UserModule/Domain/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContext/UserModule/Domain/ValueObject/UserEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContext/UserModule/Domain/ValueObject/UserId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainContext/UserModule/Domain/ValueObject/UserName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/HttpModule/Infrastructure/Http/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/HttpModule/Infrastructure/Http/ServerRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Contract/Id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Contract/IsValidTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Contract/SimpleValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Contract/StringConstraints.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Contract/Validatable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Exception/DomainException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Exception/InvalidEmailException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Exception/InvalidErrorCodeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Exception/InvalidStringException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/Exception/InvalidUuidException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/CreatedAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/DateTimeValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/Email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/EnumValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/ErrorCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/IntValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/StringValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/Uuid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Domain/ValueObject/ValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedContext/StatusModule/Infrastructure/Entrypoint/Http/Api/V1/GetHealthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainContext/UserModule/Infrastructure/Entrypoint/Http/Api/V1/User/GetUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainContext/UserModule/Infrastructure/Entrypoint/Http/Api/V1/User/GetUserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedContext/Infrastructure/Http/Server/ControllerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedContext/SharedModule/Infrastructure/Http/Server/ControllerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +48,45 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "amoya-signaturit"
+  }
+}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1720093767" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1720093766" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ju4nit0/symfony-api-skeleton.git",
+    "accountId": "923fb601-9d20-4340-ba9c-1f6f09e5983f"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/composer.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -29,13 +100,15 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/global/amoya/proyectos/api-ra",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,11 +142,24 @@
       <option name="presentableId" value="Default" />
       <updated>1720082932429</updated>
       <workItem from="1720082934069" duration="2850000" />
-      <workItem from="1720086729914" duration="2903000" />
+      <workItem from="1720086729914" duration="13473000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1720093854853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720093854853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
